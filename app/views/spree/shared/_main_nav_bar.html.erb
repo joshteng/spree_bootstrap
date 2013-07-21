@@ -1,6 +1,11 @@
 <nav class="row-fluid">
+  <div id="category-nav">
+    <% get_taxonomies.each do |taxonomy| %>
+      <%= taxons_tree(taxonomy.root, @taxon, Spree::Config[:max_level_in_taxons_menu] || 1) %>
+    <% end %>
+  </div>
+
   <ul id="main-nav-bar" class="inline" data-hook>
-    <li id="home-link" data-hook><%= link_to Spree.t(:home), spree.root_path %></li>
     <li id="link-to-cart" data-hook><%= link_to_cart %></li>
   </ul>
 </nav>

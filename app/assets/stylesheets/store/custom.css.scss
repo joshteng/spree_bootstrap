@@ -109,3 +109,44 @@ footer#footer{
     min-height: 600px;
     position: relative;
   }
+
+
+/* PRODUCT */
+
+ul#products{
+  li.alpha{
+    margin-left: 0px;
+  }
+
+  li.beta{
+
+  }
+
+  li.gamma{
+
+  }
+
+  li{
+    .product-image{
+      border: 0px !important;
+    }
+
+    a.info{
+      border: 0px !important;
+      float: left;
+      margin-top: 0px;
+      font-size: 12px;
+      color: #000;
+      overflow: hidden;
+    }
+
+    .price{
+      color: #000;
+      font-size: 11px;
+      float: left;
+      padding-top: 0px;
+      margin-left: 10px;
+    }
+
+  }
+}

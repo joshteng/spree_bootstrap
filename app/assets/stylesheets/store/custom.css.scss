@@ -15,6 +15,10 @@ a{
   text-shadow: none;
 }
 
+#content{
+  min-height: 0px;
+}
+
 /* HEADER */
 #logo-holder{
   overflow: auto;
@@ -78,6 +82,11 @@ a{
       }
     }
   }
+
+/* NOTICE */
+.flash{
+  margin-bottom: 0px;
+}
 
 /* FOOTER */
 
